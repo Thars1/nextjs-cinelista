@@ -1,0 +1,23 @@
+.header{
+ background-color: #1F1F1F;
+ padding: 1rem 2rem;   
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    color: #e50914;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.header__nav a{
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.header__nav a:hover{
+    color:#e50914;
+}
